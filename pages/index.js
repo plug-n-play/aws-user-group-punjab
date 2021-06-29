@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import heroImg from '../public/img/hero.jpg'
 import styles from '../styles/Home.module.css'
 
@@ -12,13 +12,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image src={heroImg} alt="AWS User Group Punjab" />
+        {/* <Image src={heroImg} alt="AWS User Group Punjab" /> */}
         <h1 className={styles.title}>
           Welcome to <span>AWS User Group Punjab</span>
         </h1>
 
         <p className={styles.description}>
-          A place where all AWS enthusiasists meet, learn and share!
+          A place where all AWS enthusiasts meet, learn and share!
         </p>
 
         <div>
