@@ -1,26 +1,14 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import logo from '../public/img/logo.png'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <>
     <main className={styles.container}>
       <Head>
         <title>AWS User Group Punjab</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-
-      <section className={styles.hero}>
-        <Image src={logo} alt="AWS User Group Punjab" width={150} height={150} />
-        <h1 className={styles.title}>
-          Welcome to <span>AWS User Group Punjab</span>
-        </h1>
-
-        <p className={styles.description}>
-          A place where AWS enthusiasts meet, learn and share!
-        </p>
-      </section>
 
       <section className={styles.content}>
         <h2>Upcoming Meetups:</h2>
@@ -51,6 +39,11 @@ export default function Home() {
 
         <p><a href="https://join.slack.com/t/aws-user-group-punjab/shared_invite/zt-sb9mehdf-oBnMehf5J0GhVhlr2RB3hg">Join our Slack Channel</a></p>
       </section>
+
+      <footer>
+        <a href='/about'>About Us</a>
+      </footer>
     </main>
+    </>
   )
 }
