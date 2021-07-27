@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import Banner from '../public/img/aws-promotion-card.png'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -16,23 +18,27 @@ export default function Home() {
         <ol>
           <li>
             <h3>Agenda: Static Web Apps with AWS Amplify</h3>
+            <Image src={Banner} alt="AWS User Group Punjab" />
+            <p>
+              AWS offers a complete suite of services and infrastructure which can be overwhelming to beginners. Let's start our Journey at AWS User Group Punjab, by looking at the simplest possible use case on AWS, and learn how to deploy Static Web Apps using AWS.
+            </p>
             <p>
               Our first meet up will take place on 31st July, 2021 - Saturday at 11:00 am IST.
             </p>
 
             <p>
-              Register <a href="https://docs.google.com/forms/d/e/1FAIpQLScD7Kb3gTqV6M-983cApuCtI3zvKJodhiql_Z_Lq4TfKvNU9w/viewform" target="_blank">here</a>
+              Register <a href="https://www.commudle.com/communities/aws-user-group-punjab/events/static-web-apps-with-aws-amplify" target="_blank">here</a>
             </p>
           </li>
 
           <li>
             <h3>Agenda: Creating REST APIs with AWS Amplify</h3>
             <p>
-              Our second meet up will take place on 14th Aug, 2021 - Saturday at 11:00 am IST.
+              Our second meet up will take place on 28th Aug, 2021 - Saturday at 6:00 pm IST.
             </p>
 
             <p>
-              Register <a href="https://docs.google.com/forms/d/1WIlUXtEF0nJbQeEXAOeKocR2FoRYYuFh-YS2bW-5BB4" target="_blank">here</a>
+              More details to be added. Registration link coming soon.
             </p>
           </li>
         </ol>
