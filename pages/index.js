@@ -1,18 +1,36 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Banner from '../public/img/aws-promotion-card.png'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <>
-    <main className={styles.container}>
       <Head>
         <title>AWS User Group Punjab</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <section className={styles.content}>
+      <section>
+
+        <h2>About Us</h2>
+        <p>
+          Amazon Web Services(AWS) is a comprehensive, continuously evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure as a service (IaaS, platform as a service (PaaS) and packaged software as a service (SaaS) offerings. AWS services can offer an organization tools such as compute power, database storage and content delivery services.
+        </p>
+
+        <p>
+          AWS User Group Punjab is a group of individuals who are passionate about learning and sharing different aspects of AWS with the community.
+        </p>
+
+        <p>Due to Covid 19 pandemic, all meetups are currently held online.</p>
+
+        <p>
+          Connect with us on <a href="https://www.commudle.com/communities/aws-user-group-punjab/" target="_blank">Commudle</a> and other <a href="#footer">Social platforms</a> to stay updated on upcoming content and events.
+        </p>
+
+      </section>
+
+      <section>
+
         <h2>Upcoming Meetups:</h2>
 
         <ol>
@@ -34,7 +52,7 @@ export default function Home() {
           <li>
             <h3>Agenda: Creating REST APIs with AWS Amplify</h3>
             <p>
-              Our second meet up will take place on 28th Aug, 2021 - Saturday at 6:00 pm IST.
+              Our second meet up will take place on Saturday, 28th Aug, 2021.
             </p>
 
             <p>
@@ -43,13 +61,16 @@ export default function Home() {
           </li>
         </ol>
 
-        <p><a href="https://join.slack.com/t/aws-user-group-punjab/shared_invite/zt-sb9mehdf-oBnMehf5J0GhVhlr2RB3hg">Join our Slack Channel</a></p>
       </section>
 
-      <footer>
-        <a href='/about'>About Us</a>
-      </footer>
-    </main>
+      <style jsx>{`
+        section {
+          margin-bottom: 50px;
+        }
+        ol {
+					padding-left: 20px;
+        }
+      `}</style>
     </>
   )
 }
