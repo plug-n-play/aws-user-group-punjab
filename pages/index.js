@@ -35,28 +35,51 @@ export default function Home() {
 
         <ol>
           <li>
-            <h3>Agenda: Static Web Apps with AWS Amplify</h3>
+            <h3>Deploy Static Web Apps with Amazon S3 & Amazon Cloudfront.</h3>
             <Image src={Banner} alt="AWS User Group Punjab" />
+            <p>
+              Long gone are the days when Static web apps meant a collection of web-pages with just static content. Single page applications offer a powerful strategy to deploy web apps which are way more than just static content. In this meetup, we will explore how Amazon S3 offers a way to effortlessly host static web apps. Further, we will see how Amazon Cloudfront securely delivers content with low latency and high transfer speeds.
+            </p>
+            <p>
+              When: 4th Dec, 2021, Saturday 11:30 am - 1:00 pm IST.
+            </p>
+
+            <p>
+              Registeration link coming soon
+            </p>
+          </li>
+        </ol>
+
+      </section>
+
+      <section>
+
+        <h2>Past Meetups:</h2>
+
+        <ol>
+          <li>
+            <h3>Static Web Apps with AWS Amplify</h3>
             <p>
               AWS offers a complete suite of services and infrastructure which can be overwhelming to beginners. Let's start our Journey at AWS User Group Punjab, by looking at the simplest possible use case on AWS, and learn how to deploy Static Web Apps using AWS.
             </p>
             <p>
-              Our first meet up will take place on 31st July, 2021 - Saturday at 11:00 am IST.
+              Speaker: <a href="https://www.linkedin.com/in/amandeep-singh-bajwa/" target="_blank">Amandeep Singh</a>, Independent Consultant, Organiser AWS UG Punjab
             </p>
-
             <p>
-              Register <a href="https://www.commudle.com/communities/aws-user-group-punjab/events/static-web-apps-with-aws-amplify" target="_blank">here</a>
+              When: 31st July, 2021, Saturday 11:00 am - 12:30 pm IST.
             </p>
           </li>
 
           <li>
-            <h3>Agenda: Creating REST APIs with AWS Amplify</h3>
-            <p>
-              Our second meet up will take place on Saturday, 28th Aug, 2021.
-            </p>
+            <h3>Introduction to Serverless</h3>
+
+            <iframe width="100%" height="340" src="https://www.youtube.com/embed/GLLnd3S_tZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <p>
-              More details to be added. Registration link coming soon.
+              Speaker: <a href="https://www.linkedin.com/in/sanchitdilipjain/" target="_blank">Sanchit Jain</a>, Lead Architect, Quantiphi, AWS APM Ambassador
+            </p>
+            <p>
+              When: 21st Nov, 2021, Sunday 1:30 pm - 3:00 pm IST.
             </p>
           </li>
         </ol>
