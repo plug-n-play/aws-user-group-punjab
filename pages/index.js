@@ -36,7 +36,6 @@ export default function Home() {
         <ol>
           <li>
             <h3>Deploy Static Web Apps with Amazon S3 & Amazon Cloudfront.</h3>
-            <Image src={Banner} alt="AWS User Group Punjab" />
             <p>
               Long gone are the days when Static web apps meant a collection of web-pages with just static content. Single page applications offer a powerful strategy to deploy web apps which are way more than just static content. In this meetup, we will explore how Amazon S3 offers a way to effortlessly host static web apps. Further, we will see how Amazon Cloudfront securely delivers content with low latency and high transfer speeds.
             </p>
@@ -59,6 +58,7 @@ export default function Home() {
         <ol>
           <li>
             <h3>Static Web Apps with AWS Amplify</h3>
+            <Image src={Banner} alt="Static Web Apps with AWS Amplify" />
             <p>
               AWS offers a complete suite of services and infrastructure which can be overwhelming to beginners. Let's start our Journey at AWS User Group Punjab, by looking at the simplest possible use case on AWS, and learn how to deploy Static Web Apps using AWS.
             </p>
