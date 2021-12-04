@@ -36,7 +36,7 @@ export default function Home() {
         <ol>
           <li>
             <h3>Deploy Static Web Apps with Amazon S3 & Amazon Cloudfront.</h3>
-            <iframe width="100%" height="360" src="https://www.youtube.com/embed/4VwZxulSvDQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="100%" height="360" src="https://www.youtube.com/embed/U0QUsjvgOug" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             <p>
               Long gone are the days when Static web apps meant a collection of web-pages with just static content. Single page applications offer a powerful strategy to deploy web apps which are way more than just static content. In this meetup, we will explore how Amazon S3 offers a way to effortlessly host static web apps. Further, we will see how Amazon Cloudfront securely delivers content with low latency and high transfer speeds.
             </p>
