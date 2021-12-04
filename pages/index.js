@@ -28,10 +28,20 @@ export default function Home() {
         </p>
 
       </section>
-
+{/*
       <section>
 
         <h2>Upcoming Meetups:</h2>
+
+        <ol>
+
+        </ol>
+
+      </section> */}
+
+      <section>
+
+        <h2>Past Meetups:</h2>
 
         <ol>
           <li>
@@ -48,15 +58,6 @@ export default function Home() {
               <a href="https://commudle.com/communities/aws-user-group-punjab/events/deploy-static-web-apps-with-amazon-s3-amazon-cloudfront" target="_blank">Register</a>
             </p>
           </li>
-        </ol>
-
-      </section>
-
-      <section>
-
-        <h2>Past Meetups:</h2>
-
-        <ol>
           <li>
             <h3>Static Web Apps with AWS Amplify</h3>
             <Image src={Banner31072021} alt="Static Web Apps with AWS Amplify" />
