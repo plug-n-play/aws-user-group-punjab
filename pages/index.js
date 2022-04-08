@@ -52,6 +52,9 @@ export default function Home() {
               In this talk, Derek Bingham (<a href='https://www.linkedin.com/in/derekwbingham' target='_blank'>https://www.linkedin.com/in/derekwbingham</a>) from the developer relations team at AWS Cloud, will share how all these developer personas can still use their favourite tools and work together seamlessly to accelerate the delivery of beautiful production ready applications using AWS Amplify.
             </p>
             <p>
+              Register <a href='https://www.commudle.com/communities/aws-user-group-punjab/events/building-designing-beautiful-production-ready-apps-with-amplify-and-cdk' target='_blank'>here</a>.
+            </p>
+            <p>
               The event will be streamed live at <a href='https://www.youtube.com/watch?v=1UpfZMp0pGI' target='_blank'>https://www.youtube.com/watch?v=1UpfZMp0pGI</a>
             </p>
             <p>
