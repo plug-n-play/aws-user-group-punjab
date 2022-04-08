@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Banner31072021 from '../public/img/promos/31072021.png'
+import Banner15042022 from '../public/img/promos/15042022.jpg'
 
 export default function Home() {
   return (
@@ -28,16 +29,38 @@ export default function Home() {
         </p>
 
       </section>
-{/*
+
       <section>
 
         <h2>Upcoming Meetups:</h2>
 
         <ol>
+          <li>
+            <h3>Deploy Static Web Apps with Amazon S3 & Amazon Cloudfront.</h3>
+            <Image src={Banner15042022} alt="Deploy Static Web Apps with Amazon S3 & Amazon Cloudfront" />
+            <p>
+              AWS Amplify is a set of purpose-built tools and features that lets frontend web and mobile developers quickly and easily build full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as your use cases evolve. With Amplify, you can configure a web or mobile app backend, connect your app in minutes, visually build a web frontend UI, and easily manage app content outside the AWS console. Ship faster and scale effortlessly—with no cloud expertise needed.
+            </p>
 
+            <p>
+              Front end and mobile applications are built by many developer personas, with each persona producing assets using different tools.
+            </p>
+            <p>
+              From an UX designer who provides the visual assets with Figma, to a full-stack developer who integrates those assets and builds corresponding frontends with React as well as backend APIs with data-stores, to a Site Reliability Engineer (SRE) who automates everything, including treating the infrastructure as code with AWS CDK. This mismatch of tooling and the different assets they produce slows down application delivery.
+            </p>
+            <p>
+              In this talk, Derek Bingham (<a href='https://www.linkedin.com/in/derekwbingham' target='_blank'>https://www.linkedin.com/in/derekwbingham</a>) from the developer relations team at AWS Cloud, will share how all these developer personas can still use their favourite tools and work together seamlessly to accelerate the delivery of beautiful production ready applications using AWS Amplify.
+            </p>
+            <p>
+              The event will be streamed live at <a href='https://www.youtube.com/watch?v=1UpfZMp0pGI' target='_blank'>https://www.youtube.com/watch?v=1UpfZMp0pGI</a>
+            </p>
+            <p>
+              When: 15th Apr, 2022, Friday 2:00 pm - 3:00 pm IST.
+            </p>
+          </li>
         </ol>
 
-      </section> */}
+      </section>
 
       <section>
 
