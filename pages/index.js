@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Banner31072021 from '../public/img/promos/31072021.png'
+import Banner30042022 from '../public/img/promos/30042022.png'
 
 export default function Home() {
   return (
@@ -29,15 +30,31 @@ export default function Home() {
 
       </section>
 
-      {/* <section>
+      <section>
 
         <h2>Upcoming Meetups:</h2>
 
         <ol>
-
+        <li>
+            <h3>Well Architected, Serverless-First Development with AWS CDK</h3>
+            <Image src={Banner30042022} alt="Static Web Apps with AWS Amplify" />
+            <p></p>
+            <p>
+              In this talk, Matt Coutler, Sr. Architect, Liberty IT will help understand what is AWS CDK, how it relates to AWS CloudFormation, the differences to other development tools like AWS SAM or Terraform and then we will cover how to combine it with the AWS Well Architected Framework through patterns and constructs to unlock the potential of your engineers.
+            </p>
+            <p>
+              Matt is focused on creating the right environment for empowered teams to rapidly deliver business value in a well-architected, sustainable and serverless-first way. Matt is the creator of CDK Patterns, an open source collection of well architected serverless patterns in AWS CDK. He is also the founder of CDK Day, a global virtual conference to celebrate the CDK community and co author of the CDK Book.
+            </p>
+            <p>
+              When: 30th Apr, 2022, Saturday 6:00 pm - 7:00 pm IST.
+            </p>
+            <p>
+              Register <a href="https://commudle.com/communities/aws-user-group-punjab/events/well-architected-serverless-first-development-with-aws-cdk" target='_blank'>here</a>
+            </p>
+          </li>
         </ol>
 
-      </section> */}
+      </section>
 
       <section>
 
@@ -47,7 +64,7 @@ export default function Home() {
 
           <li>
             <h3>Building & Designing Beautiful Production Ready Apps with Amplify and CDK</h3>
-            <iframe width="100%" height="340" src="https://www.youtube.com/embed/1UpfZMp0pGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="360" src="https://www.youtube.com/embed/1UpfZMp0pGI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             <p></p>
             <p>
               AWS Amplify is a set of purpose-built tools and features that lets frontend web and mobile developers quickly and easily build full-stack applications on AWS, with the flexibility to leverage the breadth of AWS services as your use cases evolve. With Amplify, you can configure a web or mobile app backend, connect your app in minutes, visually build a web frontend UI, and easily manage app content outside the AWS console. Ship faster and scale effortlessly—with no cloud expertise needed.
